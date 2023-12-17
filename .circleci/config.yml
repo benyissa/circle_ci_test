@@ -12,4 +12,4 @@ workflows:
           scan_profile: fast_scan
           scan_title: Test Circle CI workflow
           target: oxo_insecure.apk
-          extra: --test-credentials-login=test_login --test-credentials-password=test_pass
+          extra: 

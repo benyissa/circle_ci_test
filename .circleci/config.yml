@@ -8,10 +8,10 @@ workflows:
           ostorlab_api_key: 6PEQ2wVG.otDRjvRbfdTPK2om7FuFpJLLOn66ssqo
           asset_type: android-apk
           break_on_risk_rating: HIGH
+          extra: >-
+            --test-credentials-login=test_login
+            --test-credentials-password=test_pass
           max_wait_minutes: 5
           scan_profile: fast_scan
           scan_title: Test Circle CI workflow
           target: oxo_insecure.apk
-          extra: >-
-            --test-credentials-login=test_login
-            --test-credentials-password=test_pass

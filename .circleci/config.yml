@@ -10,6 +10,6 @@ workflows:
           break_on_risk_rating: HIGH
           max_wait_minutes: 5
           scan_profile: fast_scan
-          scan_title: Test Circle CI workflow
+          scan_title: Test_Circle_CI_workflow
           target: oxo_insecure.apk
-          extra: --sbom=package-lock.json
+          extra: --test-credentials-login=test_login --test-credentials-password=test_pass
